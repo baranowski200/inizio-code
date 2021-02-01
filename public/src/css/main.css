@@ -1,0 +1,118 @@
+/*tags*/
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: Questrial;
+    width: 100%;
+}
+
+/*header*/
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+header a:hover {
+    color: #a0aec0;
+    transition: 200ms;
+}
+
+/*landing*/
+
+.landing-img {
+    right: 0;
+    bottom: 0;
+    background-image: url("/public/src/img/doggo.png");
+    height: 500px;
+    background-size: cover;
+}
+
+.landing {
+    background-color: #ad0707;
+    color: white;
+    height: 100vh;
+}
+
+.landing h1 {
+    font-size: 2rem;
+}
+
+/*about*/
+
+.about-flex i {
+    font-size: 5rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+/*sniff*/
+
+.sniff {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*sniffer*/
+
+.sniffer {
+    height: 100vh;
+}
+
+/*result*/
+
+.result {
+    height: 100vh;
+}
+
+/*history*/
+
+.history h2 {
+    font-size: 1.2rem;
+}
+
+.history table td {
+    border-bottom: #cbd5e0 1px solid;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #ad0707;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    font-weight: 800;
+}
+
+
+/*btsp*/
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #ad0707;
+    border-color: #ad0707;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #ad0707;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
